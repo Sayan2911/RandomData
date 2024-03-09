@@ -1,8 +1,10 @@
 {
   "type": "module",
   "dependencies": {
+    "random-data-generators": "^0.0.1",
     "unique-names-generator": "^4.7.1"
   },
   "name": "random-data-generators",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "main": "index.js"
 }
