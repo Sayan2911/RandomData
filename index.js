@@ -5,32 +5,32 @@ const config = {
 
 }
 
-// const characterName= uniqueNamesGenerator(config);
-// console.log(characterName);
 
 
 const characterName= uniqueNamesGenerator(config);
-const name=()=>{
-    console.log(characterName);
+ const namess=()=>{
+   
     return characterName
 }
-name()
 
-const email=()=>{
+
+export const emailss=()=>{
     const email= characterName +"@email.com"
-    console.log(email);
+    
     return email
 }
-email()
 
-const number=()=>{
+
+export const numberss=()=>{
     const number=Math.floor(Math.random()*10000000000)
-    console.log(number);
+   
     return number
 }
 
-number()
+export const Name=namess()
+export const Email=emailss()
+export const Number=numberss()
 
-module.exports=name
-module.exports=email
-module.exports=number
+
+
+
